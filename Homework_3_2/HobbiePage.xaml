@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Homework_3_2.HobbiePage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="*" />
+            <ColumnDefinition
+                Width="*" />
+        </Grid.ColumnDefinitions>
+        <StackLayout
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="15, 15, 15, 15">
+            <Image
+                Source="Sports"
+                WidthRequest="100"
+                HeightRequest="100" />
+            <Label
+                Text="Sports"
+                HorizontalTextAlignment="Center" />
+        </StackLayout>
+        <StackLayout
+            Grid.Row="0"
+            Grid.Column="1"
+            Margin="15, 15, 15, 15">
+            <Image
+                Source="Music"
+                WidthRequest="100"
+                HeightRequest="100" />
+            <Label
+                Text="Music"
+                HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
